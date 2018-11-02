@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Sobre o LACAD"
+        android:id="@+id/lab"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_preferences"
+        />
+    <item android:title="Sobre a Lunar"
+        android:id="@+id/lunar"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_info_details"
+        />
+    <item android:title="Sair"
+        android:id="@+id/logout"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_info_details"
+        />
+</menu>
